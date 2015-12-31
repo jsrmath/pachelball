@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Julian Rosenblum">
+
+  <title>Julian Rosenblum | Pachelball</title>
+
+  <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+  <link href="http://julianrosenblum.com/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Game CSS -->
+  <link href="style.css" rel="stylesheet">
+
+  <!-- Custom Fonts -->
+  <link href="http://julianrosenblum.com/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+  <h1>Pachelball<br /><small>by <a href="http://julianrosenblum.com">Julian Rosenblum</a></small></h1>
+  <div id="controls"><label for="speed">Speed:</label> <input id="speed" type="range" min="5" max="20" value="15" /><br />
+  Balls: <span id="balls">0</span></div>
+  <canvas id="canvas"></canvas>
+  <div id="audio"></div>
+
+
+  <!-- jQuery -->
+  <script src="http://julianrosenblum.com/js/jquery.js"></script>
+
+  <!-- Bootstrap Core JavaScript -->
+  <script src="http://julianrosenblum.com/js/bootstrap.min.js"></script>
+
+  <!-- Game Scripts -->
+  <script src="http://julianrosenblum.com/js/canvasplus.js"></script>
+  <script src="index.js"></script>

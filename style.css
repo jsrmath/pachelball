@@ -1,0 +1,20 @@
+body, canvas {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  position: absolute;
+  left: 1em;
+}
+body {
+  background-color: black;    
+}
+div#controls {
+  position: absolute;
+  right: 0;
+  background-color: white;
+  padding: 1em;
+}
+div#audio {
+  display: none;	
+}
